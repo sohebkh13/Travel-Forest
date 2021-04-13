@@ -1,0 +1,81 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.spain-description{
+    padding: 16px 16px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.5);
+    top: 80px;
+    width: 180vh;
+
+}
+
+.spain-image{
+    background-image: url("https://www.edarabia.com/wp-content/uploads/2020/01/spain-flag.jpg");
+    width: 500vh;
+    height: 100vh;
+}
+
+.spain-image1{
+    background-image: url("https://smapse.com/storage/2018/10/alcala-1.jpg");
+    width: 500vh;
+    height: 100vh;
+
+}
+
+.spain-image2{
+    background-image: url("https://www.tegustaviajar.com/wp-content/uploads/2019/01/museo-casa-natal-de-cervantes-madrid.jpg");
+    width: 500vh;
+    height: 100vh;
+
+}
+
+.spain-image3{
+    background-image: url("https://www.comunidad.madrid/sites/default/files/styles/image_style_16_9/public/img/lugares/plaza_cervantes.jpg?itok=dG8VXe97");
+    width: 500vh;
+    height: 100vh;
+}
+
+.spain-image4{
+    background-image: url("https://cdn.hswstatic.com/gif/sagrada-familia-2.jpg");
+    width: 500vh;
+    height: 100vh;
+}
+
+.spain-image5{
+    background-image: url("https://monicalucy.com/wp-content/uploads/2018/01/Barcelona-Cathedral-located-in-Gothic-Quarter-.jpg");
+    width: 500vh;
+    height: 100vh;
+}
+.spain-image6{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/44/Plaza_Mayor_de_Madrid_06.jpg");
+    width: 500vh;
+    height: 100vh;
+}
+.spain-image7{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/40/Palacio_Real_de_Madrid_-_03.jpg");
+    width: 500vh;
+    height: 100vh;
+}
+.spain-image8{
+    background-image: url("https://i.ytimg.com/vi/FuIQhL3olfk/maxresdefault.jpg");
+    width: 500vh;
+    height: 100vh;
+}
