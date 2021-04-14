@@ -2,7 +2,7 @@
     display: none;
 }
 
-div{
+.spain,.spain-image1,.spain-image,.spain-image2,.spain-image3,.spain-image4,.spain-image5,.spain-image6,.spain-image7{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,6 +24,7 @@ div{
     background-color: rgba(0,0,0,0.5);
     top: 80px;
     width: 180vh;
+    text-align: center;
 
 }
 

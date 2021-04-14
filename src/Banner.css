@@ -1,57 +1,252 @@
-.banner{
-    position: relative;
-    height: 448px;
-    color: white;
+/*.banner{*/
+/*    position: relative;*/
+/*    height: 448px;*/
+/*    color: white;*/
+/*    object-fit: contain;*/
+/*}*/
+
+/*.banner-contents{*/
+/*    margin-left: 30px;*/
+/*    padding-top: 140px;*/
+/*    height: 190px;*/
+/*}*/
+
+/*.banner-title{*/
+/*    font-size: 3rem;*/
+/*    font-weight: 800;*/
+/*    padding-bottom: 0.3rem;*/
+/*}*/
+
+/*.banner-description{*/
+/*    width: 45rem;*/
+/*    line-height: 1.3;*/
+/*    padding-top: 1rem;*/
+/*    font-size: 0.8rem;*/
+/*    max-width: 360px;*/
+/*    height: 80px;*/
+/*}*/
+
+/*.banner-fadeBottom{*/
+/*    height: 7.4rem;*/
+/*    background-image: linear-gradient(*/
+/*    180deg,*/
+/*    transparent,*/
+/*    rgba(37,37,37,0.61),*/
+/*    #111*/
+/*    );*/
+/*}*/
+/*.banner-button{*/
+/*    cursor: pointer;*/
+/*    color: #fff;*/
+/*    outline: none;*/
+/*    border: none;*/
+/*    font-weight: 700;*/
+/*    border-radius: 0.2vw;*/
+/*    padding-left: 2rem;*/
+/*    padding-right: 2rem;*/
+/*    margin-right: 1rem;*/
+/*    background-color: rgba(51,51,51,0.5);*/
+/*    padding-bottom: 0.5rem;*/
+/*    padding-top: 0.5rem;*/
+/*}*/
+
+/*.banner-button:hover{*/
+/*    color: #000;*/
+/*    background-color: #e6e6e6;*/
+/*    transition: all 0.2s;*/
+/*}*/
+
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.banner-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
     object-fit: contain;
+    justify-content: center;
 }
 
-.banner-contents{
-    margin-left: 30px;
-    padding-top: 140px;
-    height: 190px;
+.banner-container > h1{
+    color: white;
+    font-size: 100px;
+    margin-top: 10px;
 }
 
-.banner-title{
-    font-size: 3rem;
-    font-weight: 800;
-    padding-bottom: 0.3rem;
+.banner-container > p{
+    margin-top: 8px;
+    color: white;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.banner-description{
-    width: 45rem;
-    line-height: 1.3;
-    padding-top: 1rem;
-    font-size: 0.8rem;
-    max-width: 360px;
-    height: 80px;
-}
 
-.banner-fadeBottom{
-    height: 7.4rem;
-    background-image: linear-gradient(
-    180deg,
-    transparent,
-    rgba(37,37,37,0.61),
-    #111
-    );
-}
-.banner-button{
+.covid {
     cursor: pointer;
-    color: #fff;
-    outline: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: Marvel;
+    font-size: 30pt;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    color: #bbb;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+    border-radius: 0px;
+    margin: 5px;
+    background: transparent;
+    padding: 0;
+    overflow: hidden;
     border: none;
-    font-weight: 700;
-    border-radius: 0.2vw;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-right: 1rem;
-    background-color: rgba(51,51,51,0.5);
-    padding-bottom: 0.5rem;
-    padding-top: 0.5rem;
+    font-weight: 500;
+}
+.covid:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to left, transparent, #bbb);
+    animation: covid-left 2s linear infinite;
+    transition: 0.5s ease-in-out;
+}
+.covid:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to top, transparent, #bbb);
+    animation: covid-top 2s linear infinite;
+    animation-delay: 1s;
+    transform: translateY(-100%);
+}
+.covid span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 6px;
+}
+.covid span:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #bbb);
+    animation: covid-right 2s linear infinite;
+}
+.covid span:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 12px;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, #bbb);
+    animation: btn-22-bottom 2s linear infinite;
+    animation-delay: 1s;
+    transform: translateY(-100%)
+}
+.covid:hover:before {
+    background: linear-gradient(to left, transparent, #11b430);
+}
+.covid:hover:after {
+    background: linear-gradient(to top, transparent, #11b430);
+}
+.covid span:hover:before {
+    background: linear-gradient(to bottom, transparent, #11b430);
+}
+.covid span:hover:after {
+    background: linear-gradient(to right, transparent, #11b430);
+}
+.covid:hover {
+    color: red;
+}
+.covid:active:before {
+    background: linear-gradient(to left, transparent, #00a7fc);
+}
+.covid:active:after {
+    background: linear-gradient(to top, transparent, #00a7fc);
+}
+.covid span:active:before {
+    background: linear-gradient(to bottom, transparent, #00a7fc);
+}
+.covid span:active:after {
+    background: linear-gradient(to right, transparent, #00a7fc);
+}
+.covid:active {
+    color: #00a7fc;
+}
+@keyframes covid-top {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+@keyframes covid-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+@keyframes covid-bottom {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
+@keyframes covid-right {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
 }
 
-.banner-button:hover{
-    color: #000;
-    background-color: #e6e6e6;
-    transition: all 0.2s;
+@media screen and (max-width: 960px){
+    .banner-container > h1{
+        font-size: 60px;
+        margin-top: -150px;
+    }
+    .covid{
+        width: 300px;
+        height: 45px;
+        font-size: 20pt;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .banner-container > h1{
+        font-size: 40px;
+        margin-top: -100px;
+    }
+    .banner-container >p{
+        font-size: 30px;
+    }
+    .covid{
+        width: 200px;
+        height: 35px;
+        font-size: 12pt;
+    }
 }

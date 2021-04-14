@@ -7,8 +7,11 @@ import {auth} from "./firebase";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import {useDispatch, useSelector} from "react-redux";
 import {login, logout, selectUser} from "./features/userSlice";
-import Brazil from "./countries/Brazil";
 import Spain from "./countries/Spain";
+//import Covid from './Covid.js'
+
+
+
 
 
 function App() {
@@ -29,6 +32,8 @@ function App() {
         return unsubscribe
     }, [dispatch]);
 
+
+
   return (
     <div className="App">
         <Router>
@@ -42,12 +47,13 @@ function App() {
                     <Route exact path="/">
                         <HomeScreen/>
                     </Route>
-                    <Route path="/brazil">
-                        <Brazil/>
-                    </Route>
                     <Route path="/spain">
                         <Spain/>
                     </Route>
+                    {/*<Route path="/covid">*/}
+                    {/*    <Covid/>*/}
+                    {/*</Route>*/}
+
                 </Switch>
 
             )}

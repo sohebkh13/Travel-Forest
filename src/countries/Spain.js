@@ -1,6 +1,6 @@
 import React from "react";
-import Nav from "../Nav";
 import "./Spain.css"
+import Nav from "../Nav";
 function Spain(){
     return(
         <div className="spain">

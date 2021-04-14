@@ -1,12 +1,13 @@
 import React, {useState} from "react";
 import "./LoginScreen.css"
 import SignupScreen from "./SignupScreen";
-
+import LoginVideo from './video-1.mp4'
 function LoginScreen(){
     const [signIn, setSignIn] = useState(false)
 
     return(
         <div className="loginScreen">
+            <video src={LoginVideo} autoPlay loop muted/>
             <div className="loginScreen-background">
                 <img
                     className="loginScreen-Logo"
