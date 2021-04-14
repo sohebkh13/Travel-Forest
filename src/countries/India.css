@@ -1,0 +1,93 @@
+::-webkit-scrollbar{
+  display: none;
+}
+
+.india,.india-image1,.india-image,.india-image2,.india-image3,.india-image4,.india-image5,.india-image6,.india-image7,.india-image8,.india-image9,.india-image10{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.india-description{
+  padding: 16px 16px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgba(0,0,0,0.5);
+  top: 80px;
+  width: 180vh;
+  text-align: center;
+
+}
+
+.india-image{
+  background-image: url("https://imagevars.gulfnews.com/2019/08/09/190809-india-flag_16c77466fdf_large.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.india-image1{
+  background-image: url("https://blonholiday.files.wordpress.com/2017/01/city-palace-jaipur-palace-in-jaipur-rajasthan.jpg?w=1850&h=640&crop=1");
+  width: 500vh;
+  height: 100vh;
+
+}
+
+.india-image2{
+  background-image: url("https://i2.wp.com/thekarwaan.com/wp-content/uploads/2019/11/Jantar-Mantar.jpg?fit=1140%2C536&ssl=1");
+  width: 500vh;
+  height: 100vh;
+
+}
+
+.india-image3{
+  background-image: url("https://mediahindustan.com/wp-content/uploads/2020/02/%E0%A4%B9%E0%A4%B5%E0%A4%BE-%E0%A4%AE%E0%A4%B9%E0%A4%B2-%E0%A4%9C%E0%A4%AF%E0%A4%AA%E0%A5%81%E0%A4%B0-Hawa-Mahal.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.india-image4{
+  background-image: url("https://ak2.picdn.net/shutterstock/videos/4097602/thumb/1.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.india-image5{
+  background-image: url("https://www.pinkcitypost.com/wp-content/uploads/2017/04/albert-hall-museum-Jaipur.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.india-image6{
+  background-image: url("https://im.whatshot.in/img/2019/Dec/cubbon-park-1575270788.jfif");
+  width: 500vh;
+  height: 100vh;
+}
+.india-image7{
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/16/79/25/8e/20190120-104931-largejpg.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.india-image8{
+  background-image: url("https://cdn.s3waas.gov.in/s35751ec3e9a4feab575962e78e006250d/uploads/bfi_thumb/2018071957-olw8m1n2y51kg48fafq5enxd3k9pfk0tjdc0itk422.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.india-image9{
+    background-image: url("http://www.jagranjosh.com/imported/images/E/Articles/Chola-Period1.jpg");
+    width: 500vh;
+    height: 100vh;
+}
+.india-image10{
+      background-image: url("https://media.tacdn.com/media/attractions-splice-spp-674x446/06/e3/9f/6d.jpg");
+      width: 500vh;
+      height: 100vh;
+}
