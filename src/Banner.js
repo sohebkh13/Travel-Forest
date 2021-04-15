@@ -61,8 +61,8 @@ function Banner(){
             <h1>ADVENTURE AWAITS</h1>
             <p>What are you waiting for?</p>
             <div className="banner-buttons">
-                <a href="https://covid19statswebsite.netlify.app/"
-                   target="_blank"><br/><br/><Button /*onClick={() => history.push("/covid")}*/ className="covid"><span>COVID-19 Status</span></Button></a>
+                <a href="https://tf-covid-tracker.web.app/"
+                   target="_blank"><br/><br/><Button  className="covid"><span>COVID-19 Status</span></Button></a>
 
             </div>
 

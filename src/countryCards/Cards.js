@@ -5,7 +5,6 @@ function Cards() {
     return (
         <div className='cards'>
 
-
             <h1>Ready to Explore?</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
