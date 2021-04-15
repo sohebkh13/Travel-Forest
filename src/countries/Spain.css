@@ -93,7 +93,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .spain-image1,.spain-image,.spain-image2,.spain-image3,.spain-image4,.spain-image5,.spain-image6,.spain-image7{
+    .spain-image,.spain-image1,.spain-image2,.spain-image3,.spain-image4,.spain-image5,.spain-image6,.spain-image7{
         width: 150vh;
         height: 40vh;
     }

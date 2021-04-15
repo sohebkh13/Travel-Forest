@@ -62,7 +62,7 @@ function Banner(){
             <p>What are you waiting for?</p>
             <div className="banner-buttons">
                 <a href="https://tf-covid-tracker.web.app/"
-                   target="_blank"><br/><br/><Button  className="covid"><span>COVID-19 Status</span></Button></a>
+                   target="_self"><br/><br/><Button  className="covid"><span>COVID-19 Status</span></Button></a>
 
             </div>
 
