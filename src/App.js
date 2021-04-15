@@ -48,11 +48,11 @@ function App() {
                 <LoginScreen/>
             ):(
                 <Switch>
-                    <Route exact path="/home">
-                        <HomeScreen/>
-                    </Route>
-                    <Route path="/home/profile">
+                    <Route path="/profile">
                         <ProfileScreen/>
+                    </Route>
+                    <Route exact path="/">
+                        <HomeScreen/>
                     </Route>
 
                     <Route path="/scotland">
