@@ -1,0 +1,102 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.united_states,
+.united_states-image1,
+.united_states-image,
+.united_states-image2,
+.united_states-image3,
+.united_states-image4,
+.united_states-image5,
+.united_states-image6,
+.united_states-image7,
+.united_states-image8,
+.united_states-image9,
+.united_states-image10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.united_states-description {
+  padding: 16px 16px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 80px;
+  width: 180vh;
+  text-align: center;
+}
+
+.united_states-image {
+  background-image: url("https://api.time.com/wp-content/uploads/2019/09/american-flag-wind.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.united_states-image1 {
+  background-image: url("https://www.tourist-destinations.com/wp-content/uploads/2011/06/61aab7aca7e99b3c6d0b5f0afa37f3a0.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.united_states-image2 {
+  background-image: url("https://pullman.accor.com/destinations/city/san-francisco-1400x788-1.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.united_states-image3 {
+  background-image: url("https://cdn.energycities.org/wp-content/uploads/2016/05/houston-is-about-to-become-americas-3rd-largest-city-960x500.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.united_states-image4 {
+  background-image: url("https://i.ytimg.com/vi/533jlfCsPT0/maxresdefault.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.united_states-image5 {
+  background-image: url("http://famousdestinations.in/wp-content/uploads/2016/03/Waikiki-Beach-Hawaii-U.S.A-1070x732.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.united_states-image6 {
+  background-image: url("https://www.planetware.com/wpimages/2018/12/washington-dc-attractions-united-states-capitol.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.united_states-image7 {
+  background-image: url("https://cdn.britannica.com/97/100097-050-7E411D6F/Harbor-Freeway-Los-Angeles.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.united_states-image8 {
+  background-image: url("https://pix10.agoda.net/geo/city/10757/1_10757_02.jpg?s=1920x822");
+  width: 500vh;
+  height: 100vh;
+}
+
+.united_states-image9 {
+  background-image: url("https://solotravelerworld.com/wp-content/uploads/2012/04/cloud-gate-chicago.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.united_states-image10 {
+  background-image: url("https://cdn.britannica.com/66/93866-050-64944EF0/Skyline-Boston.jpg");
+  width: 500vh;
+  height: 100vh;
+}
