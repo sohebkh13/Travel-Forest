@@ -1,7 +1,7 @@
 
 import React from "react";
 //import "./styles.css"
-import "./Japan.css"
+import "./japan.css"
 import Nav from "../Nav";
 //import { Nav, NavItem, NavLink } from 'reactstrap';
 function Japan(){

@@ -100,3 +100,38 @@
   width: 500vh;
   height: 100vh;
 }
+
+@media only screen and (max-width: 960px) {
+  .united_states-image1,.united_states-image,.united_states-image2,.united_states-image3,.united_states-image4,.united_states-image5,.united_states-image6,.united_states-image7{
+    width: 350vh;
+    height: 70vh;
+  }
+  .united_states-description{
+    width: 80vh;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .united_states-image1,.united_states-image,.united_states-image2,.united_states-image3,.united_states-image4,.united_states-image5,.united_states-image6,.united_states-image7{
+    width: 150vh;
+    height: 40vh;
+  }
+  .united_states-description{
+    width: 60vh;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .united_states-image1, .united_states-image, .united_states-image2, .united_states-image3, .united_states-image4, .united_states-image5, .united_states-image6, .united_states-image7 {
+    width: 100vh;
+    height: 30vh;
+  }
+
+  .united_states-description {
+    width: 40vh;
+    font-size: 10px;
+  }
+}
+

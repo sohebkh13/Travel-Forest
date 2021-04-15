@@ -100,3 +100,37 @@
   width: 500vh;
   height: 100vh;
 }
+
+@media only screen and (max-width: 960px) {
+  .scotland-image1,.scotland-image,.scotland-image2,.scotland-image3,.scotland-image4,.scotland-image5,.scotland-image6,.scotland-image7{
+    width: 350vh;
+    height: 70vh;
+  }
+  .scotland-description{
+    width: 80vh;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .scotland-image1,.scotland-image,.scotland-image2,.scotland-image3,.scotland-image4,.scotland-image5,.scotland-image6,.scotland-image7{
+    width: 150vh;
+    height: 40vh;
+  }
+  .scotland-description{
+    width: 60vh;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .scotland-image1, .scotland-image, .scotland-image2, .scotland-image3, .scotland-image4, .scotland-image5, .scotland-image6, .scotland-image7 {
+    width: 100vh;
+    height: 30vh;
+  }
+
+  .scotland-description {
+    width: 40vh;
+    font-size: 10px;
+  }
+}

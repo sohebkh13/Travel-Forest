@@ -29,7 +29,8 @@ function LoginScreen(){
                             <div className="loginScreen-input">
                                 <form>
                                     <input type="email" placeholder="Email Address"/>
-                                    <button onClick={() => setSignIn(true)} className="loginScreen-explorebtn">EXPLORE</button>
+                                    <button onClick={() => setSignIn(true)} className="loginScreen-explorebtn">
+                                        <rect x="0" y="0" fill="none" width="100%" height="100%"/>EXPLORE</button>
                                 </form>
                             </div>
                         </>

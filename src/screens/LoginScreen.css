@@ -38,6 +38,11 @@
     font-weight: 600;
     border: none;
     cursor: pointer;
+    transition:all 0.2s linear;
+}
+
+.loginScreen-button:hover{
+    background-color: darkgreen;
 }
 
 .loginScreen-body>h1{font-size:3.125rem;margin-bottom:20px}

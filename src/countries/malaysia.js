@@ -1,7 +1,7 @@
 
 import React from "react";
 //import "./styles.css"
-import "./Malaysia.css"
+import "./malaysia.css"
 import Nav from "../Nav";
 //import { Nav, NavItem, NavLink } from 'reactstrap';
 function Malaysia(){

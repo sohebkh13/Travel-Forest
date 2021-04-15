@@ -35,7 +35,8 @@ function SignupScreen(){
     return(
         <div className="signupScreen">
             <form>
-                <h1>Sign In</h1>
+                <h1>Sign In<h4><span className="signupScreen-gray">(Click on "Sign up now" below after entering the credentials for automatic signup.)</span></h4>
+                </h1>
                 <input ref={emailRef} placeholder="Email Address" type="email"/>
                 <input ref={passwordRef} placeholder="Password (must be at least 6 characters long)" type="password"/>
                 <button type="submit" onClick={signIn}>Sign In</button>

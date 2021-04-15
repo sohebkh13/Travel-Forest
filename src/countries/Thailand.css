@@ -100,3 +100,37 @@
   width: 500vh;
   height: 100vh;
 }
+
+@media only screen and (max-width: 960px) {
+  .thailand-image1,.thailand-image,.thailand-image2,.thailand-image3,.thailand-image4,.thailand-image5,.thailand-image6,.thailand-image7{
+    width: 350vh;
+    height: 70vh;
+  }
+  .thailand-description{
+    width: 80vh;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .thailand-image1,.thailand-image,.thailand-image2,.thailand-image3,.thailand-image4,.thailand-image5,.thailand-image6,.thailand-image7{
+    width: 150vh;
+    height: 40vh;
+  }
+  .thailand-description{
+    width: 60vh;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .thailand-image1, .thailand-image, .thailand-image2, .thailand-image3, .thailand-image4, .thailand-image5, .thailand-image6, .thailand-image7 {
+    width: 100vh;
+    height: 30vh;
+  }
+
+  .thailand-description {
+    width: 40vh;
+    font-size: 10px;
+  }
+}

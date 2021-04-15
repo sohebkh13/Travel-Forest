@@ -100,3 +100,37 @@
   width: 500vh;
   height: 100vh;
 }
+
+@media only screen and (max-width: 960px) {
+  .japan-image1,.japan-image,.japan-image2,.japan-image3,.japan-image4,.japan-image5,.japan-image6,.japan-image7{
+    width: 350vh;
+    height: 70vh;
+  }
+  .japan-description{
+    width: 80vh;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .japan-image1,.japan-image,.japan-image2,.japan-image3,.japan-image4,.japan-image5,.japan-image6,.japan-image7{
+    width: 150vh;
+    height: 40vh;
+  }
+  .japan-description{
+    width: 60vh;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .japan-image1, .japan-image, .japan-image2, .japan-image3, .japan-image4, .japan-image5, .japan-image6, .japan-image7 {
+    width: 100vh;
+    height: 30vh;
+  }
+
+  .japan-description {
+    width: 40vh;
+    font-size: 10px;
+  }
+}

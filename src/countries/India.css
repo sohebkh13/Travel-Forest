@@ -91,3 +91,37 @@
       width: 500vh;
       height: 100vh;
 }
+
+@media only screen and (max-width: 960px) {
+  .india-image1,.india-image,.india-image2,.india-image3,.india-image4,.india-image5,.india-image6,.india-image7{
+    width: 350vh;
+    height: 70vh;
+  }
+  .india-description{
+    width: 80vh;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .india-image1,.india-image,.india-image2,.india-image3,.india-image4,.india-image5,.india-image6,.india-image7{
+    width: 150vh;
+    height: 40vh;
+  }
+  .india-description{
+    width: 60vh;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .india-image1, .india-image, .india-image2, .india-image3, .india-image4, .india-image5, .india-image6, .india-image7 {
+    width: 100vh;
+    height: 30vh;
+  }
+
+  .india-description {
+    width: 40vh;
+    font-size: 10px;
+  }
+}

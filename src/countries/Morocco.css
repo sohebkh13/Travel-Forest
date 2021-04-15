@@ -100,3 +100,37 @@
   width: 500vh;
   height: 100vh;
 }
+
+@media only screen and (max-width: 960px) {
+  .morocco-image1,.morocco-image,.morocco-image2,.morocco-image3,.morocco-image4,.morocco-image5,.morocco-image6,.morocco-image7{
+    width: 350vh;
+    height: 70vh;
+  }
+  .morocco-description{
+    width: 80vh;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .morocco-image1,.morocco-image,.morocco-image2,.morocco-image3,.morocco-image4,.morocco-image5,.morocco-image6,.morocco-image7{
+    width: 150vh;
+    height: 40vh;
+  }
+  .morocco-description{
+    width: 60vh;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .morocco-image1, .morocco-image, .morocco-image2, .morocco-image3, .morocco-image4, .morocco-image5, .morocco-image6, .morocco-image7 {
+    width: 100vh;
+    height: 30vh;
+  }
+
+  .morocco-description {
+    width: 40vh;
+    font-size: 10px;
+  }
+}

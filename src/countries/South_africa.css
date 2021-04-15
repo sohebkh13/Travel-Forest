@@ -100,3 +100,37 @@
   width: 500vh;
   height: 100vh;
 }
+
+@media only screen and (max-width: 960px) {
+  .south_africa-image1,.south_africa-image,.south_africa-image2,.south_africa-image3,.south_africa-image4,.south_africa-image5,.south_africa-image6,.south_africa-image7{
+    width: 350vh;
+    height: 70vh;
+  }
+  .south_africa-description{
+    width: 80vh;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .south_africa-image1,.south_africa-image,.south_africa-image2,.south_africa-image3,.south_africa-image4,.south_africa-image5,.south_africa-image6,.south_africa-image7{
+    width: 150vh;
+    height: 40vh;
+  }
+  .south_africa-description{
+    width: 60vh;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .south_africa-image1, .south_africa-image, .south_africa-image2, .south_africa-image3, .south_africa-image4, .south_africa-image5, .south_africa-image6, .south_africa-image7 {
+    width: 100vh;
+    height: 30vh;
+  }
+
+  .south_africa-description {
+    width: 40vh;
+    font-size: 10px;
+  }
+}

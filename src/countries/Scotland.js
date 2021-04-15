@@ -4,7 +4,7 @@ import React from "react";
 import "./Scotland.css"
 import Nav from "../Nav";
 //import { Nav, NavItem, NavLink } from 'reactstrap';
-function scotland(){
+function Scotland(){
     return(
         <div className="scotland">
             <Nav/>
@@ -84,4 +84,4 @@ function scotland(){
         </div>
     )
 }
-export default scotland
+export default Scotland

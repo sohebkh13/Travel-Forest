@@ -2,7 +2,7 @@
 import React from "react";
 import "./India.css"
 import Nav from "../Nav";
-function india(){
+function India(){
     return(
         <div className="india">
             <Nav/>
@@ -80,4 +80,4 @@ function india(){
         </div>
     )
 }
-export default india
+export default India

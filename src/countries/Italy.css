@@ -1,8 +1,19 @@
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
 
-.greece,.greece-image1,.greece-image,.greece-image2,.greece-image3,.greece-image4,.greece-image5,.greece-image6,.greece-image7,.greece-image8,.greece-image9,.greece-image10{
+.italy,
+.italy-image1,
+.italy-image,
+.italy-image2,
+.italy-image3,
+.italy-image4,
+.italy-image5,
+.italy-image6,
+.italy-image7,
+.italy-image8,
+.italy-image9,
+.italy-image10 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,77 +28,109 @@
   overflow-x: hidden;
 }
 
-.greece-description{
+.italy-description {
   padding: 16px 16px;
   border-radius: 10px;
   font-size: 20px;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   top: 80px;
   width: 180vh;
   text-align: center;
-
 }
 
-.greece-image{
-  background-image: url("https://images.unsplash.com/photo-1571765772403-15b9af5528f7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JlZWslMjBmbGFnfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80");
+.italy-image {
+  background-image: url("https://media.gettyimages.com/videos/italy-flag-loopable-video-id538316832?s=640x640");
   width: 500vh;
   height: 100vh;
 }
 
-.greece-image1{
-  background-image: url("https://www.piraeus.org/wp-content/uploads/2019/12/piraeus-museum-1.jpg");
-  width: 500vh;
-  height: 100vh;
-
-}
-
-.greece-image2{
-  background-image: url("https://i.ytimg.com/vi/rYtJFDnqKWs/maxresdefault.jpg");
-  width: 500vh;
-  height: 100vh;
-
-}
-
-.greece-image3{
-  background-image: url("https://www.shoretrips.com/images/trip_images/024987_120430034822.jpg");
+.italy-image1 {
+  background-image: url("https://c1.wallpaperflare.com/preview/875/293/244/arch-of-constantine-colosseum-rome-italy.jpg");
   width: 500vh;
   height: 100vh;
 }
 
-.greece-image4{
-  background-image: url("https://i.ytimg.com/vi/E_C_d2i8f4c/maxresdefault.jpg");
+.italy-image2 {
+  background-image: url("https://www.planetware.com/photos-large/I/italy-rome-pantheon-exterior-view.jpg");
   width: 500vh;
   height: 100vh;
 }
 
-.greece-image5{
-  background-image: url("https://media-cdn.tripadvisor.com/media/photo-m/1280/15/69/cd/d9/vue-de-l-exterieur.jpg");
-  width: 500vh;
-  height: 100vh;
-}
-.greece-image6{
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/195/455/708/architecture-forest-trees-nature-wallpaper-preview.jpg");
-  width: 500vh;
-  height: 100vh;
-}
-.greece-image7{
-  background-image: url("https://meteora.com/wp-content/uploads/2016/07/MEGALO-METEORO.jpg");
-  width: 500vh;
-  height: 100vh;
-}
-.greece-image8{
-  background-image: url("https://i.pinimg.com/originals/1d/66/af/1d66afd3c5b6bdf8ee81044c37e624cc.jpg");
+.italy-image3 {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/353/87/817/italy-rome-palace-trevi-fountain-trevi-fountain-in-italy-wallpaper-preview.jpg");
   width: 500vh;
   height: 100vh;
 }
 
-.greece-image9{
-    background-image: url("http://greecephotoguide.com/user_photos/HD-user-18-NhLGZZ9BsUzKXiX.jpg");
-    width: 500vh;
-    height: 100vh;
+.italy-image4 {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/439/291/753/piazza-san-marco-square-europe-eu-wallpaper-preview.jpg");
+  width: 500vh;
+  height: 100vh;
 }
-.greece-image10{
-      background-image: url("https://projects.knx.org/picture?id=1148639&size=customer_project_main_picture");
-      width: 500vh;
-      height: 100vh;
+
+.italy-image5 {
+  background-image: url("https://www.inexhibit.com/wp-content/uploads/2014/02/Doges-Palace-Venice-west-facade.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.italy-image6 {
+  background-image: url("https://www.hotel-heureka.com/wp-content/uploads/2018/08/San-Rocco-1.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.italy-image7 {
+  background-image: url("https://www.tuscany.co/wp-content/uploads/battistero-pisa-2.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.italy-image8 {
+  background-image: url("https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_910,h_445/https://www.istitutoitaliano.it/wp-content/uploads/2018/04/uffizi-gallery-tour.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.italy-image9 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Medicibib.jpg/1200px-Medicibib.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.italy-image10 {
+  background-image: url("https://images.unsplash.com/photo-1531572753322-ad063cecc140?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHZhdGljYW4lMjBjaXR5fGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80");
+  width: 500vh;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 960px) {
+  .italy-image1,.italy-image,.italy-image2,.italy-image3,.italy-image4,.italy-image5,.italy-image6,.italy-image7{
+    width: 350vh;
+    height: 70vh;
+  }
+  .italy-description{
+    width: 80vh;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .italy-image1,.italy-image,.italy-image2,.italy-image3,.italy-image4,.italy-image5,.italy-image6,.italy-image7{
+    width: 150vh;
+    height: 40vh;
+  }
+  .italy-description{
+    width: 60vh;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .italy-image1, .italy-image, .italy-image2, .italy-image3, .italy-image4, .italy-image5, .italy-image6, .italy-image7 {
+    width: 100vh;
+    height: 30vh;
+  }
+
+  .italy-description {
+    width: 40vh;
+    font-size: 10px;
+  }
 }

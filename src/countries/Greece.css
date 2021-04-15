@@ -2,7 +2,7 @@
   display: none;
 }
 
-.india,.india-image1,.india-image,.india-image2,.india-image3,.india-image4,.india-image5,.india-image6,.india-image7,.india-image8,.india-image9,.india-image10{
+.greece,.greece-image1,.greece-image,.greece-image2,.greece-image3,.greece-image4,.greece-image5,.greece-image6,.greece-image7,.greece-image8,.greece-image9,.greece-image10{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +17,7 @@
   overflow-x: hidden;
 }
 
-.india-description{
+.greece-description{
   padding: 16px 16px;
   border-radius: 10px;
   font-size: 20px;
@@ -28,66 +28,100 @@
 
 }
 
-.india-image{
-  background-image: url("https://imagevars.gulfnews.com/2019/08/09/190809-india-flag_16c77466fdf_large.jpg");
+.greece-image{
+  background-image: url("https://images.unsplash.com/photo-1571765772403-15b9af5528f7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JlZWslMjBmbGFnfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80");
   width: 500vh;
   height: 100vh;
 }
 
-.india-image1{
-  background-image: url("https://blonholiday.files.wordpress.com/2017/01/city-palace-jaipur-palace-in-jaipur-rajasthan.jpg?w=1850&h=640&crop=1");
-  width: 500vh;
-  height: 100vh;
-
-}
-
-.india-image2{
-  background-image: url("https://i2.wp.com/thekarwaan.com/wp-content/uploads/2019/11/Jantar-Mantar.jpg?fit=1140%2C536&ssl=1");
+.greece-image1{
+  background-image: url("https://www.piraeus.org/wp-content/uploads/2019/12/piraeus-museum-1.jpg");
   width: 500vh;
   height: 100vh;
 
 }
 
-.india-image3{
-  background-image: url("https://mediahindustan.com/wp-content/uploads/2020/02/%E0%A4%B9%E0%A4%B5%E0%A4%BE-%E0%A4%AE%E0%A4%B9%E0%A4%B2-%E0%A4%9C%E0%A4%AF%E0%A4%AA%E0%A5%81%E0%A4%B0-Hawa-Mahal.jpg");
+.greece-image2{
+  background-image: url("https://i.ytimg.com/vi/rYtJFDnqKWs/maxresdefault.jpg");
+  width: 500vh;
+  height: 100vh;
+
+}
+
+.greece-image3{
+  background-image: url("https://cdn.britannica.com/66/102266-050-FBDEFCA1/acropolis-city-state-Greece-Athens.jpg");
   width: 500vh;
   height: 100vh;
 }
 
-.india-image4{
-  background-image: url("https://ak2.picdn.net/shutterstock/videos/4097602/thumb/1.jpg");
+.greece-image4{
+  background-image: url("https://i.ytimg.com/vi/E_C_d2i8f4c/maxresdefault.jpg");
   width: 500vh;
   height: 100vh;
 }
 
-.india-image5{
-  background-image: url("https://www.pinkcitypost.com/wp-content/uploads/2017/04/albert-hall-museum-Jaipur.jpg");
+.greece-image5{
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-m/1280/15/69/cd/d9/vue-de-l-exterieur.jpg");
   width: 500vh;
   height: 100vh;
 }
-.india-image6{
-  background-image: url("https://im.whatshot.in/img/2019/Dec/cubbon-park-1575270788.jfif");
+.greece-image6{
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/195/455/708/architecture-forest-trees-nature-wallpaper-preview.jpg");
   width: 500vh;
   height: 100vh;
 }
-.india-image7{
-  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/16/79/25/8e/20190120-104931-largejpg.jpg");
+.greece-image7{
+  background-image: url("https://meteora.com/wp-content/uploads/2016/07/MEGALO-METEORO.jpg");
   width: 500vh;
   height: 100vh;
 }
-.india-image8{
-  background-image: url("https://cdn.s3waas.gov.in/s35751ec3e9a4feab575962e78e006250d/uploads/bfi_thumb/2018071957-olw8m1n2y51kg48fafq5enxd3k9pfk0tjdc0itk422.jpg");
+.greece-image8{
+  background-image: url("https://i.pinimg.com/originals/1d/66/af/1d66afd3c5b6bdf8ee81044c37e624cc.jpg");
   width: 500vh;
   height: 100vh;
 }
 
-.india-image9{
-    background-image: url("http://www.jagranjosh.com/imported/images/E/Articles/Chola-Period1.jpg");
-    width: 500vh;
-    height: 100vh;
+.greece-image9{
+  background-image: url("http://greecephotoguide.com/user_photos/HD-user-18-NhLGZZ9BsUzKXiX.jpg");
+  width: 500vh;
+  height: 100vh;
 }
-.india-image10{
-      background-image: url("https://media.tacdn.com/media/attractions-splice-spp-674x446/06/e3/9f/6d.jpg");
-      width: 500vh;
-      height: 100vh;
+.greece-image10{
+  background-image: url("https://projects.knx.org/picture?id=1148639&size=customer_project_main_picture");
+  width: 500vh;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 960px) {
+  .greece-image1,.greece-image,.greece-image2,.greece-image3,.greece-image4,.greece-image5,.greece-image6,.greece-image7{
+    width: 350vh;
+    height: 70vh;
+  }
+  .greece-description{
+    width: 80vh;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .greece-image1,.greece-image,.greece-image2,.greece-image3,.greece-image4,.greece-image5,.greece-image6,.greece-image7{
+    width: 150vh;
+    height: 40vh;
+  }
+  .greece-description{
+    width: 60vh;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .greece-image1, .greece-image, .greece-image2, .greece-image3, .greece-image4, .greece-image5, .greece-image6, .greece-image7 {
+    width: 100vh;
+    height: 30vh;
+  }
+
+  .greece-description {
+    width: 40vh;
+    font-size: 10px;
+  }
 }

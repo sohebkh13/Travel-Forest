@@ -12,7 +12,8 @@ function ProfileScreen(){
         <div className="profileScreen">
             <Nav/>
             <div className="profileScreen-body">
-                <h1>Edit Profile</h1>
+                <h1>Profile<h4>(Click the Travel Forest logo to reach the home screen)</h4></h1>
+
                 <div className="profileScreen-info">
                     <img
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY87C4uQDIODEzXSdn5LGm7HhxSpuYyVdqyX_sFATr2IKsXDsN5BYlsiQjr0Ry6yrDqWw&usqp=CAU"

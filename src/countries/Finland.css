@@ -100,3 +100,37 @@
   width: 500vh;
   height: 100vh;
 }
+
+@media only screen and (max-width: 960px) {
+  .finland-image1,.finland-image,.finland-image2,.finland-image3,.finland-image4,.finland-image5,.finland-image6,.finland-image7{
+    width: 350vh;
+    height: 70vh;
+  }
+  .finland-description{
+    width: 80vh;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .finland-image1,.finland-image,.finland-image2,.finland-image3,.finland-image4,.finland-image5,.finland-image6,.finland-image7{
+    width: 150vh;
+    height: 40vh;
+  }
+  .finland-description{
+    width: 60vh;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .finland-image1, .finland-image, .finland-image2, .finland-image3, .finland-image4, .finland-image5, .finland-image6, .finland-image7 {
+    width: 100vh;
+    height: 30vh;
+  }
+
+  .finland-description {
+    width: 40vh;
+    font-size: 10px;
+  }
+}

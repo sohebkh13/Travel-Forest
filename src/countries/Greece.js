@@ -4,7 +4,7 @@ import React from "react";
 import "./Greece.css"
 import Nav from "../Nav";
 //import { Nav, NavItem, NavLink } from 'reactstrap';
-function greece(){
+function Greece(){
     return(
         <div className="greece">
             <Nav/>
@@ -90,4 +90,4 @@ an advanced media guide tour</h4>
         </div>
     )
 }
-export default greece
+export default Greece

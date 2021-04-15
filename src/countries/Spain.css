@@ -80,3 +80,36 @@
     width: 500vh;
     height: 100vh;
 }
+
+@media only screen and (max-width: 960px) {
+    .spain-image1,.spain-image,.spain-image2,.spain-image3,.spain-image4,.spain-image5,.spain-image6,.spain-image7{
+        width: 350vh;
+        height: 70vh;
+    }
+    .spain-description{
+        width: 80vh;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .spain-image1,.spain-image,.spain-image2,.spain-image3,.spain-image4,.spain-image5,.spain-image6,.spain-image7{
+        width: 150vh;
+        height: 40vh;
+    }
+    .spain-description{
+        width: 60vh;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 512px) {
+    .spain-image1,.spain-image,.spain-image2,.spain-image3,.spain-image4,.spain-image5,.spain-image6,.spain-image7{
+        width: 100vh;
+        height: 30vh;
+    }
+    .spain-description{
+        width: 40vh;
+        font-size: 10px;
+    }
+}

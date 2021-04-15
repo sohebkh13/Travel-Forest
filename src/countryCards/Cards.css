@@ -1,10 +1,15 @@
 .cards {
     padding: 4rem;
-    background: #fff;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190625/ourmid/pngtree-frosted-gradient-black-background-image_262528.jpg");
+    color: white;
+    /*background-color: black;*/
+
+
 }
 
 h1 {
     text-align: center;
+    /*border-bottom: 1px solid #282c2d;*/
 }
 
 .cards__container {
@@ -14,6 +19,7 @@ h1 {
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
+
 }
 
 .cards__wrapper {
@@ -31,6 +37,7 @@ h1 {
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+
 }
 
 .cards__item__link {
@@ -43,6 +50,9 @@ h1 {
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
+    background-color: darkslategray;
+    transition: all 0.2s linear;
+
 }
 
 .cards__item__pic-wrap {
@@ -67,7 +77,7 @@ h1 {
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #1f98f4;
+    background-color: black;
     box-sizing: border-box;
 }
 
@@ -90,14 +100,20 @@ h1 {
     transform: scale(1.1);
 }
 
+.cards__item__link:hover {
+    transform: scale(1.05);
+}
+
 .cards__item__info {
     padding: 20px 30px 30px;
+
 }
 
 .cards__item__text {
-    color: #252e48;
+    color: white;
     font-size: 18px;
     line-height: 24px;
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -117,3 +133,5 @@ h1 {
         margin-bottom: 2rem;
     }
 }
+
+
