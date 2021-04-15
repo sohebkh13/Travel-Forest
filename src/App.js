@@ -21,6 +21,8 @@ import Morocco from "./countries/morocco";
 import South_africa from "./countries/south_africa";
 import Japan from "./countries/japan";
 import Malaysia from "./countries/malaysia";
+import Brazil from "./countries/brazil";
+
 function App() {
     const user = useSelector(selectUser)
     const dispatch = useDispatch();
@@ -96,6 +98,9 @@ function App() {
                     </Route>
                     <Route path="/japan">
                         <Japan/>
+                    </Route>
+                    <Route path="/brazil">
+                        <Brazil/>
                     </Route>
 
 

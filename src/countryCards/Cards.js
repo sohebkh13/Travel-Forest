@@ -82,7 +82,7 @@ function Cards() {
                             />
                             <CardItem
                                 src='https://cdn.britannica.com/27/4227-004-B2E23E61/Flag-South-Africa.jpg'
-                                text='Welcome South Africa!'
+                                text='Welcome South Africa! Zulu, Xhosa'
                                 path='/south africa'
                                 label='South Africa'
                             />
@@ -98,6 +98,12 @@ function Cards() {
                                 path='/malaysia'
                                 label='Malaysia'
                             />
+                        <CardItem
+                            src='https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png'
+                            text='Welcome to Brazil! Malay - Bem vindo ao Brasil'
+                            path='/brazil'
+                            label='Brazil'
+                        />
 
                     </ul>
 
