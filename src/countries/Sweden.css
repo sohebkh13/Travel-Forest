@@ -1,0 +1,102 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.sweden,
+.sweden-image1,
+.sweden-image,
+.sweden-image2,
+.sweden-image3,
+.sweden-image4,
+.sweden-image5,
+.sweden-image6,
+.sweden-image7,
+.sweden-image8,
+.sweden-image9,
+.sweden-image10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.sweden-description {
+  padding: 16px 16px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 80px;
+  width: 180vh;
+  text-align: center;
+}
+
+.sweden-image {
+  background-image: url("https://wallpaperaccess.com/full/1203940.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.sweden-image1 {
+  background-image: url("https://www.homofaberguide.com/uploads/images/5842-mm3.jpg.jpeg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.sweden-image2 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/95/Skansen%2C_Djurg%C3%A5rden%2C_%C3%96stermalm%2C_Stockholm%2C_Sweden_-_panoramio.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.sweden-image3 {
+  background-image: url("https://i.pinimg.com/originals/92/6a/1b/926a1bbd973218e0b5c9758579c60357.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.sweden-image4 {
+  background-image: url("https://www.kungligaslotten.se/images/18.363eb6d4161bda943ca8e2/1519463177692/drottningholms-slott-foto-raphael-stecksen.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.sweden-image5 {
+  background-image: url("https://media.tacdn.com/media/attractions-splice-spp-674x446/06/71/47/3b.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.sweden-image6 {
+  background-image: url("https://cf.bstatic.com/images/hotel/max1024x768/184/184840635.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.sweden-image7 {
+  background-image: url("https://d3aux7tjp119y2.cloudfront.net/original_images/GotaKanal_Hasse_Schroder_-CMSTemplate.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.sweden-image8 {
+  background-image: url("http://www.layoverguide.com/wp-content/uploads/2010/03/Stockholm-City-Hall-Sweden.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.sweden-image9 {
+  background-image: url("https://i.pinimg.com/originals/d3/45/85/d345853e696c0ea890ee75e95736d399.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.sweden-image10 {
+  background-image: url("https://youimg1.tripcdn.com/target/100o1f000001gp2de3B10.jpg?proc=source%2Ftrip");
+  width: 500vh;
+  height: 100vh;
+}
