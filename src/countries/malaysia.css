@@ -1,0 +1,102 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.malaysia,
+.malaysia-image1,
+.malaysia-image,
+.malaysia-image2,
+.malaysia-image3,
+.malaysia-image4,
+.malaysia-image5,
+.malaysia-image6,
+.malaysia-image7,
+.malaysia-image8,
+.malaysia-image9,
+.malaysia-image10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.malaysia-description {
+  padding: 16px 16px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 80px;
+  width: 180vh;
+  text-align: center;
+}
+
+.malaysia-image {
+  background-image: url("https://ak.picdn.net/shutterstock/videos/1019627815/thumb/9.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.malaysia-image1 {
+  background-image: url("https://cdn.britannica.com/s:800x450,c:crop/79/189379-138-C16A98A4/video-Kuala-Lumpur-Malaysia.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.malaysia-image2 {
+  background-image: url("https://cdn.theculturetrip.com/wp-content/uploads/2018/01/culture-trip-how-to-spend-48-hours-in-penang-malaysia.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.malaysia-image3 {
+  background-image: url("http://www.backyardtravel.com/wp-content/uploads/2019/08/perhentian.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.malaysia-image4 {
+  background-image: url("https://www.trailsofindochina.com/wp-content/uploads/2019/07/malaysia-borneo-2.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.malaysia-image5 {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/583cfb44c534a59807c09b51/1525566172658-WWJPUOID0VBF8I8WV7IF/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/malacca+malaysia+1");
+  width: 500vh;
+  height: 100vh;
+}
+.malaysia-image6 {
+  background-image: url("https://static.toiimg.com/photo/53057872.cms");
+  width: 500vh;
+  height: 100vh;
+}
+.malaysia-image7 {
+  background-image: url("https://www.roadaffair.com/wp-content/uploads/2018/09/sunrise-tea-plantation-cameron-highlands-malaysia-shutterstock_755903227-1024x683.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.malaysia-image8 {
+  background-image: url("https://pix10.agoda.net/geo/city/16012/1_16012_02.jpg?s=1920x822");
+  width: 500vh;
+  height: 100vh;
+}
+
+.malaysia-image9 {
+  background-image: url("http://static.asiawebdirect.com/m/kl/portals/langkawi-info-com/homepage/pagePropertiesImage/langkawi-info.jpg.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.malaysia-image10 {
+  background-image: url("https://previews.123rf.com/images/bluefishds/bluefishds1907/bluefishds190700126/127466868-batu-caves-selangor-malaysia-may-1-2019-batu-caves-with-lord-murugan-statue-and-entrance-near-kuala-.jpg");
+  width: 500vh;
+  height: 100vh;
+}

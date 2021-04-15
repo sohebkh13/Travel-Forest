@@ -1,0 +1,102 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.south_africa,
+.south_africa-image1,
+.south_africa-image,
+.south_africa-image2,
+.south_africa-image3,
+.south_africa-image4,
+.south_africa-image5,
+.south_africa-image6,
+.south_africa-image7,
+.south_africa-image8,
+.south_africa-image9,
+.south_africa-image10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.south_africa-description {
+  padding: 16px 16px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 80px;
+  width: 180vh;
+  text-align: center;
+}
+
+.south_africa-image {
+  background-image: url("https://buzzsouthafrica.com/wp-content/uploads/South-African-Flag.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.south_africa-image1 {
+  background-image: url("https://s3-cdn.tripfuser.com/blog/wp-content/uploads/2018/04/04131310/Blyde-River-Canyon.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.south_africa-image2 {
+  background-image: url("https://www.andbeyond.com/wp-content/uploads/sites/5/cape-winelands.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.south_africa-image3 {
+  background-image: url("https://www.bruisedpassports.com/wp-content/uploads/2014/01/Addo-National-Park-Elephant.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.south_africa-image4 {
+  background-image: url("https://www.silverkris.com/wp-content/uploads/2018/11/shutterstock_154929767.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.south_africa-image5 {
+  background-image: url("https://travel.home.sndimg.com/content/dam/images/travel/fullrights/2017/3/24/CI_Durban_Tourism_Board-City-Hall-South-Africa.jpg.rend.hgtvcom.616.411.suffix/1491594080765.jpeg");
+  width: 500vh;
+  height: 100vh;
+}
+.south_africa-image6 {
+  background-image: url("https://i2.wp.com/www.oshanareservations.com/wp-content/uploads/2018/07/Oshana-Reservations-Kgalagadi-Transfrontier-Park.jpg?fit=900%2C480&ssl=1");
+  width: 500vh;
+  height: 100vh;
+}
+.south_africa-image7 {
+  background-image: url("https://media.dertouristik.com/exports/KuoniUK/ImageGalleryLightboxLarge/371583_ImageGalleryLightboxLarge.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.south_africa-image8 {
+  background-image: url("http://www.airpano.ru/files/dragon-mountains-south-africa/images/image7a.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.south_africa-image9 {
+  background-image: url("https://www.discoverafrica.com/images/kruger-national-park-south-africa-safari-game-drive.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.south_africa-image10 {
+  background-image: url("https://www.azamara.com/sites/default/files/heros/cape-town-south-africa-1800x1000_1.jpg");
+  width: 500vh;
+  height: 100vh;
+}
