@@ -1,0 +1,102 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.brazil,
+.brazil-image1,
+.brazil-image,
+.brazil-image2,
+.brazil-image3,
+.brazil-image4,
+.brazil-image5,
+.brazil-image6,
+.brazil-image7,
+.brazil-image8,
+.brazil-image9,
+.brazil-image10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.brazil-description {
+  padding: 16px 16px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 80px;
+  width: 180vh;
+  text-align: center;
+}
+
+.brazil-image {
+  background-image: url("https://wallpapercave.com/wp/wp3156972.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.brazil-image1 {
+  background-image: url("http://1.bp.blogspot.com/-7hnyfcwPiL4/Uz1aH2uaynI/AAAAAAAAeI8/4HHI46mvML0/s1600/christ-the-redeemer-statue-rio-de-janeiro-brazil.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.brazil-image2 {
+  background-image: url("https://wallpapercave.com/wp/wp3327994.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.brazil-image3 {
+  background-image: url("https://www.sp-reinforcement.eu/sites/default/files/field_project_visual/sp-reinforcement-lighthouse-project-maracana-stadion-1440x820.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.brazil-image4 {
+  background-image: url("https://previews.123rf.com/images/f11photo/f11photo1511/f11photo151100184/47981624-the-municipal-theatre-in-rio-de-janeiro-brazil.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.brazil-image5 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Webysther_20190304150324_-_Parque_da_Independ%C3%AAncia.jpg/1200px-Webysther_20190304150324_-_Parque_da_Independ%C3%AAncia.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.brazil-image6 {
+  background-image: url("https://media.gettyimages.com/photos/pateo-do-colegio-in-downtown-sao-paulo-sao-paulo-brazil-picture-id901625132?b=1&k=6&m=901625132&s=170667a&w=0&h=g3N-Te7leLtNPZNo7l9kmxB7kx4BrJ0Uap9uDNwA3yA=");
+  width: 500vh;
+  height: 100vh;
+}
+.brazil-image7 {
+  background-image: url("https://i.ytimg.com/vi/aZglPGOB0Dc/maxresdefault.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.brazil-image8 {
+  background-image: url("http://tourplans.com/wp-content/uploads/2016/07/beach-pipa-brazil.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.brazil-image9 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5e/Genipabu%2C_Natal%2C_Brazil.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.brazil-image10 {
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/01/69/a9/8a/natal-s-dunes-where-natal.jpg");
+  width: 500vh;
+  height: 100vh;
+}
