@@ -1,0 +1,102 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.japan,
+.japan-image1,
+.japan-image,
+.japan-image2,
+.japan-image3,
+.japan-image4,
+.japan-image5,
+.japan-image6,
+.japan-image7,
+.japan-image8,
+.japan-image9,
+.japan-image10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.japan-description {
+  padding: 16px 16px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 80px;
+  width: 180vh;
+  text-align: center;
+}
+
+.japan-image {
+  background-image: url("https://www.edarabia.com/wp-content/uploads/2019/10/japan-flag.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.japan-image1 {
+  background-image: url("https://www.vacationstravel.com/wp-content/uploads/2017/12/Hotel-Gajoen-06.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.japan-image2 {
+  background-image: url("https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2019/01/Asakusa.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.japan-image3 {
+  background-image: url("https://whc.unesco.org/uploads/thumbs/site_0870_0029-500--20151105113344.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.japan-image4 {
+  background-image: url("https://wallpaperaccess.com/full/48760.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.japan-image5 {
+  background-image: url("https://theculturetrip.com/wp-content/uploads/2017/02/130823_shimamui_coast_shakotan_hokkaido_japan01s31.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.japan-image6 {
+  background-image: url("https://a.travel-assets.com/findyours-php/viewfinder/images/res70/152000/152731-Okinawa.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.japan-image7 {
+  background-image: url("https://japan-magazine.jnto.go.jp/jnto2wm/wp-content/uploads/1610_hiroshima_main.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.japan-image8 {
+  background-image: url("https://res.cloudinary.com/enchanting/f_auto,q_70/et-web/2017/08/Enchanting-Travels-Japan-Tours-Kyotoarchitecture.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.japan-image9 {
+  background-image: url("https://www.worldtravelguide.net/wp-content/uploads/2019/01/shu-Japan-Osaka-Osaka-castle-361261223-1440x823.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.japan-image10 {
+  background-image: url("https://www.japan-guide.com/g18/3100_02.jpg");
+  width: 500vh;
+  height: 100vh;
+}
