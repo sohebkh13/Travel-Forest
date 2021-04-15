@@ -1,0 +1,102 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.morocco,
+.morocco-image1,
+.morocco-image,
+.morocco-image2,
+.morocco-image3,
+.morocco-image4,
+.morocco-image5,
+.morocco-image6,
+.morocco-image7,
+.morocco-image8,
+.morocco-image9,
+.morocco-image10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.morocco-description {
+  padding: 16px 16px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 80px;
+  width: 180vh;
+  text-align: center;
+}
+
+.morocco-image {
+  background-image: url("https://wallpaperaccess.com/full/3840659.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.morocco-image1 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/47/Asilah_seafront.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.morocco-image2 {
+  background-image: url("https://youimg1.tripcdn.com/target/ww021f000001gx56914BD.png?proc=source%2Ftrip");
+  width: 500vh;
+  height: 100vh;
+}
+
+.morocco-image3 {
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/15/00/53/b3/jewish-cemetery-of-asilah.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.morocco-image4 {
+  background-image: url("https://i.redd.it/9p4n7z3y46f41.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.morocco-image5 {
+  background-image: url("https://i.pinimg.com/originals/ff/aa/ab/ffaaab3233aa3ad2eaa91bf8f56573eb.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.morocco-image6 {
+  background-image: url("https://i.ytimg.com/vi/tZ-dVmF6veM/maxresdefault.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.morocco-image7 {
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/10/85/8d/bf/mosquee-de-la-cite-portugaise.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.morocco-image8 {
+  background-image: url("https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_640,h_430/https://traveljapan47.net/wp-content/uploads/2020/05/Morocco20190322-1-640x430.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.morocco-image9 {
+  background-image: url("https://d1zah1nkiby91r.cloudfront.net/s3fs-public/media/institutions/aga_khan_trust_for_culture/aga_khan_award_for_architecture/akaa-2016-morocco-casa_01.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.morocco-image10 {
+  background-image: url("https://cdn.tourcms.com/a/11676/425/1/default.jpg");
+  width: 500vh;
+  height: 100vh;
+}

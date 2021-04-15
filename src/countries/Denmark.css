@@ -1,0 +1,102 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.denmark,
+.denmark-image1,
+.denmark-image,
+.denmark-image2,
+.denmark-image3,
+.denmark-image4,
+.denmark-image5,
+.denmark-image6,
+.denmark-image7,
+.denmark-image8,
+.denmark-image9,
+.denmark-image10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.denmark-description {
+  padding: 16px 16px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 80px;
+  width: 180vh;
+  text-align: center;
+}
+
+.denmark-image {
+  background-image: url("https://wallpapercave.com/wp/wp4209362.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.denmark-image1 {
+  background-image: url("https://my-free-photos.com/images/pic/data/categories/Denmark/P8030033.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.denmark-image2 {
+  background-image: url("https://www.dortemandrup.dk/sites/default/files/styles/large/public/2018-09/DM_WSC_ADAM%20MOERK_387_H_1.jpg?itok=aL6M6r_4");
+  width: 500vh;
+  height: 100vh;
+}
+
+.denmark-image3 {
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/11/56/8d/d4/ribe-art-museum-as-seen.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.denmark-image4 {
+  background-image: url("https://api.hub.dac.dk/sites/default/files/2019-10/2MP_Kannikegaarden%20-%2010.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.denmark-image5 {
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/10/c7/e3/b8/love-the-logo-on-the.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.denmark-image6 {
+  background-image: url("https://www.holidify.com/images/cmsuploads/square/800px-CedarRockCreekFalls_20201130184737.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.denmark-image7 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Kronborg_002.JPG/1200px-Kronborg_002.JPG");
+  width: 500vh;
+  height: 100vh;
+}
+.denmark-image8 {
+  background-image: url("https://1001libraries.files.wordpress.com/2014/09/kv-library_han_in_front_of_the_culture_yard.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.denmark-image9 {
+  background-image: url("https://www.asisbiz.com/Denmark/Bornholm/images/Ruins-of-Hammershus-a-Medieval-fortress-Bornholm-Denmark-July-2012-01.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.denmark-image10 {
+  background-image: url("https://www.aerialphotosearch.com/photo/detail/aerial-photos-naturhafen-zwischen-beiden-bewohnten-hauptinseln-inselgruppe-erbseninseln-ertholmene-daenemark-186997.jpg");
+  width: 500vh;
+  height: 100vh;
+}

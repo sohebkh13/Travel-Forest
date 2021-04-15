@@ -1,0 +1,102 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.finland,
+.finland-image1,
+.finland-image,
+.finland-image2,
+.finland-image3,
+.finland-image4,
+.finland-image5,
+.finland-image6,
+.finland-image7,
+.finland-image8,
+.finland-image9,
+.finland-image10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.finland-description {
+  padding: 16px 16px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 80px;
+  width: 180vh;
+  text-align: center;
+}
+
+.finland-image {
+  background-image: url("https://wallpaperaccess.com/full/1102800.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.finland-image1 {
+  background-image: url("https://frantic.s3.eu-west-1.amazonaws.com/suomenlinna/2020/01/27131341/Suomenlinna-Unesco-merilinnoitus-944x530.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.finland-image2 {
+  background-image: url("https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzFhZDNlNjBiMjkwZWUwNjE4Ml9yb2NrY2h1cmNoMDMuanBnIl0sWyJwIiwidGh1bWIiLCI1ODB4NTgwIyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXV0");
+  width: 500vh;
+  height: 100vh;
+}
+
+.finland-image3 {
+  background-image: url("https://c1.wallpaperflare.com/preview/382/764/980/helsinki-cathedral-cathedral-church-helsinki-finland-architecture.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.finland-image4 {
+  background-image: url("https://c1.wallpaperflare.com/preview/615/355/612/kamppi-chapel-of-silence-church-design-helsinki.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.finland-image5 {
+  background-image: url("https://c0.wallpaperflare.com/preview/993/114/480/finland-levi-kittila-skiing.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.finland-image6 {
+  background-image: url("https://ak.picdn.net/shutterstock/videos/1047788569/thumb/1.jpg?ip=x480");
+  width: 500vh;
+  height: 100vh;
+}
+.finland-image7 {
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/07/9a/9a/33/spy-museum-vakoilumuseo.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+.finland-image8 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f3/Luum%C3%A4ki_Church%2C_interior.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.finland-image9 {
+  background-image: url("https://ak.picdn.net/shutterstock/videos/24357314/thumb/1.jpg");
+  width: 500vh;
+  height: 100vh;
+}
+
+.finland-image10 {
+  background-image: url("https://previews.123rf.com/images/oktober64/oktober641608/oktober64160800013/60818534-lappeenranta-finland-29-july-2016-the-wooden-town-hall-the-town-hall-was-built-in-1899-.jpg");
+  width: 500vh;
+  height: 100vh;
+}
