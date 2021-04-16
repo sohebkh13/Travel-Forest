@@ -5,7 +5,9 @@ import emailjs from 'emailjs-com';
 import { makeStyles } from '@material-ui/core/styles';
 import Rating from '@material-ui/lab/Rating';
 import Box from '@material-ui/core/Box';
-import bgvideo from './videos/video-2.mp4'
+import bgvideo from './videos/video-2.mp4';
+import Nav from "./Nav";
+
 const labels = {
     0.5: 'Useless',
     1: 'Useless+',
@@ -77,6 +79,7 @@ const useStyles = makeStyles({
             return (
 
             <div className="form-container">
+                <Nav/>
                 <video src={bgvideo} autoPlay loop muted/>
                 <form className="form" onSubmit={handleSubmit}>
                     <h1>Contact Us or Give us your valuable feedback 🤳</h1>

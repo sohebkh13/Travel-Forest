@@ -3,6 +3,7 @@ import React from "react";
 //import "./styles.css"
 import "./Brazil.css"
 import Nav from "../Nav";
+import Footer from "../Footer";
 //import { Nav, NavItem, NavLink } from 'reactstrap';
 function Brazil(){
     return(
@@ -78,6 +79,7 @@ function Brazil(){
                     <h4>Dunas Park or Parque das Dunas is the second largest urban park in all of Brazil, offering a retreat into nature from the hustle and bustle of city life for both locals and visitors. Its scenic mixture of lush rainforest and tall, golden sand dunes creates a unique landscape to experience. It’s a chance to see some of the region’s natural environment.</h4>
                 </div>
             </div>
+
 
 
         </div>

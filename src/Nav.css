@@ -97,6 +97,7 @@
     letter-spacing: 1px;
 }
 .btn-1:hover rect {
+    color: #11b430;
     stroke-width: 5;
     stroke-dasharray: 15, 310;
     stroke-dashoffset: 48;
