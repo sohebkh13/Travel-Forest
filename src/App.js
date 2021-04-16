@@ -3,6 +3,7 @@ import './App.css';
 import HomeScreen from "./screens/HomeScreen";
 import LoginScreen from "./screens/LoginScreen";
 import ProfileScreen from "./screens/ProfileScreen"
+import Contact from './contactUs'
 import {auth} from "./firebase";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import {useDispatch, useSelector} from "react-redux";
@@ -52,6 +53,9 @@ function App() {
                 <Switch>
                     <Route path="/profile">
                         <ProfileScreen/>
+                    </Route>
+                    <Route path="/contact">
+                        <Contact/>
                     </Route>
                     <Route exact path="/">
                         <HomeScreen/>

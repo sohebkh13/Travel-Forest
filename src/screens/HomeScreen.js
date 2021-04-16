@@ -3,6 +3,9 @@ import "./HomeScreen.css";
 import Nav from "../Nav";
 import Banner from "../Banner";
 import Cards from "../countryCards/Cards";
+import Footer from "../Footer";
+
+
 // import requests from "../Request";
 // import Row from '../Row'
 //import {useHistory} from "react-router-dom";
@@ -18,6 +21,10 @@ function HomeScreen(){
             <Nav/>
             <Banner/>
             <Cards/>
+
+            <Footer/>
+
+
 
 
 
