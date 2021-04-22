@@ -31,6 +31,12 @@ function Nav(){
                     </svg>
                     Contact Us/Feedback
                 </a>
+                <a onClick={() => history.push("/agents")} className="btn btn-2">
+                    <svg>
+                        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                    </svg>
+                    Travel Agents
+                </a>
 
 
             </div>

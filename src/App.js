@@ -23,6 +23,7 @@ import South_africa from "./countries/south_africa";
 import Japan from "./countries/japan";
 import Malaysia from "./countries/malaysia";
 import Brazil from "./countries/brazil";
+import Agents from "./agents";
 
 function App() {
     const user = useSelector(selectUser)
@@ -56,6 +57,9 @@ function App() {
                     </Route>
                     <Route path="/contact">
                         <Contact/>
+                    </Route>
+                    <Route path="/agents">
+                        <Agents/>
                     </Route>
                     <Route exact path="/">
                         <HomeScreen/>
